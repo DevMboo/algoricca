@@ -1,5 +1,4 @@
 RewriteEngine On
-
-# Redireciona para /listar se a URL for apenas a raiz (/)
-RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{HTTP_HOST} ^127\.0\.0\.1:8000$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^localhost:8000$ [NC]
 RewriteRule ^$ /listar [R=301,L]
