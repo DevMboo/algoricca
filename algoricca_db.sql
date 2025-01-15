@@ -39,8 +39,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `created_at`) VALUES
-(1, 'Luan Chaves de Sousa', 'lchavesdesousa@gmail.com', '2025-01-14 23:46:44'),
-(3, 'Laura Isabelle', 'isa@gmail.com', '2025-01-15 01:31:39');
+(1, 'Luan Chaves de Sousa', 'lulu@gmail.com', '2025-01-14 23:46:44'),
+(3, 'Laura Isabelle', 'lili@gmail.com', '2025-01-15 01:31:39');
 
 --
 -- Índices para tabelas despejadas
