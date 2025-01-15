@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redireciona para /listar caso o usuário acesse a raiz ou sem rota
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /listar [R=301,L]
+
+# Certifique-se de que a URL ainda seja acessível se contiver outras rotas
+RewriteCond %{REQUEST_URI} !^/listar$
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,4}$   # Não redireciona se for um arquivo como .css, .js, .jpg, etc.
+RewriteRule ^$ /listar [R=301,L]
