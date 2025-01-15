@@ -12,7 +12,7 @@
     <div class="container mx-auto px-2 py-2 border rounded my-5">
         <h1><?= htmlspecialchars($title ?? 'Calculadora') ?></h1>
         
-        <!-- Formulário que envia dados via POST para o script que processa o cálculo -->
+        <!-- Formulário que envia dados via POST para o script que processa a formatação -->
         <form action="formated" method="POST">
             <!-- Campo para o valor 'a' -->
             <div class="mb-3">
