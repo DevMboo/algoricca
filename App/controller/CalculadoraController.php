@@ -17,7 +17,9 @@ class CalculadoraController {
 
         $message = [
             'status' => 'success',
-            'txt' => $calc
+            'txt' => $calc,
+            'a' => $a,
+            'b' => $b,
         ];
 
         $this->index(null, $message);

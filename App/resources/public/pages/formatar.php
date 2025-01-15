@@ -13,36 +13,19 @@
         <h1><?= htmlspecialchars($title ?? 'Calculadora') ?></h1>
         
         <!-- Formulário que envia dados via POST para o script que processa o cálculo -->
-        <form action="calculate" method="POST">
+        <form action="formated" method="POST">
             <!-- Campo para o valor 'a' -->
             <div class="mb-3">
-                <label for="valueA" class="form-label">Valor A</label>
-                <input type="number" name="a" class="form-control" id="valueA" value="<?= $message['a'] ?? '' ?>" required>
-            </div>
-
-            <!-- Campo para o valor 'b' -->
-            <div class="mb-3">
-                <label for="valueB" class="form-label">Valor B</label>
-                <input type="number" name="b" class="form-control" id="valueB" value="<?= $message['b'] ?? '' ?>" required>
-            </div>
-
-            <!-- Seleção do tipo de operação -->
-            <div class="mb-3">
-                <label for="operationType" class="form-label">Operação</label>
-                <select name="type" class="form-control" id="operationType" required>
-                    <option value="sum">Soma</option>
-                    <option value="subtract">Subtração</option>
-                    <option value="multiply">Multiplicação</option>
-                    <option value="divide">Divisão</option>
-                </select>
+                <label for="txt" class="form-label">Digite qualquer texto de sua preferencia</label>
+                <input type="text" name="txt" class="form-control" id="txt" value="<?= $message['txt'] ?? '' ?>" required>
             </div>
 
             <?php if (isset($message['status']) && $message['status'] == 'success') { ?>
-                <h1 class="text-success">Soma dos valores é: <?= htmlspecialchars($message['txt']) ?></h1>
+                <h1 class="text-success">Formatar string: <?= htmlspecialchars($message['txt']) ?></h1>
             <?php } ?>
 
             <!-- Botão para submeter o formulário -->
-            <button type="submit" class="btn btn-primary">Calcular</button>
+            <button type="submit" class="btn btn-primary">Formatar</button>
         </form>
     </div>
 

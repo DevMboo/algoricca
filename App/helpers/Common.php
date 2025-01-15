@@ -13,6 +13,17 @@ class Common
         return false;
     }
 
+    public static function formated($string) 
+    {
+        $string = trim($string);
+
+        $string = strtolower($string);
+
+        $string = str_replace(' ', '-', $string);
+
+        return $string;
+    }
+
     public static function calculate(string $type, float $a, float $b)
     {
         // Garantir que o tipo seja válido

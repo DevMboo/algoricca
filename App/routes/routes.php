@@ -20,6 +20,18 @@ $routes = [
         'method' => 'GET',
         'func' => 'index'
     ],
+    'formatar' => [
+        'controller' => 'FormatarController',
+        'path' => 'formatar',
+        'method' => 'GET',
+        'func' => 'index'
+    ],
+    'formated' => [
+        'controller' => 'FormatarController',
+        'path' => 'formated',
+        'method' => 'POST',
+        'func' => 'formated'
+    ],
     'calculate' => [
         'controller' => 'CalculadoraController',
         'path' => 'calculate',
