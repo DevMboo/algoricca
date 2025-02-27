@@ -1,31 +1,48 @@
-# Projeto Teste de Conhecimentos com PSR-4 Autoload
+Aqui está uma versão melhorada do seu `README.md`:  
 
-## Descrição
+---
 
-Este é um projeto de teste desenvolvido para demonstrar o uso do autoload PSR-4 e a estrutura básica para um projeto PHP. O objetivo é fornecer um exemplo prático de como utilizar o padrão PSR-4 para autoloading de classes em PHP.
+# 📌 Projeto Teste de Conhecimentos com PSR-4 Autoload  
 
-## Requisitos
+## 📌 Descrição  
 
-- PHP 8.0 ou superior
+Este projeto foi desenvolvido como um teste para demonstrar o uso do **autoload PSR-4** e a estrutura básica de um projeto PHP. O objetivo é fornecer um exemplo prático de como utilizar o padrão **PSR-4** para carregamento automático de classes.  
 
-## Instalação
+## 📌 Requisitos  
 
-### Passo 1: Clonar o repositório
+- PHP **8.0** ou superior  
+- Composer instalado  
 
-Primeiro, clone o repositório para sua máquina local:
+## 📌 Instalação  
 
-git clone https://github.com/DevMboo/algoricca
-cd projeto
+### 🚀 Passo 1: Clonar o repositório  
 
-### Passo 2: Instalar as dependências
-Execute o comando abaixo para instalar as dependências do projeto usando o Composer:
-composer install
+```sh
+git clone https://github.com/DevMboo/algoricca.git  
+cd algoricca  
+```
 
-### Passo 3: Executar o projeto
-Para rodar o projeto, basta utilizar o servidor embutido do PHP ou configurar um servidor web de sua preferência.
+### 🚀 Passo 2: Instalar as dependências  
 
-Para usar o servidor embutido, execute:
-php -S localhost:8000 
+Execute o comando abaixo para instalar as dependências do projeto:  
 
-Autor: DevMboo
-Linkedin: https://www.linkedin.com/in/luan-chaves/
+```sh
+composer install  
+```
+
+### 🚀 Passo 3: Executar o projeto  
+
+Para rodar o projeto, você pode utilizar o servidor embutido do PHP ou configurar um servidor web de sua preferência.  
+
+Para usar o servidor embutido, execute:  
+
+```sh
+php -S localhost:8000  
+```
+
+## 📌 Autor  
+
+👨‍💻 **DevMboo**  
+🔗 [LinkedIn](https://www.linkedin.com/in/luan-chaves/)  
+
+Se precisar de mais alguma melhoria, me avise! 🚀
