@@ -43,5 +43,3 @@ php -S localhost:8000
 
 👨‍💻 **DevMboo**  
 🔗 [LinkedIn](https://www.linkedin.com/in/luan-chaves/)  
-
-Se precisar de mais alguma melhoria, me avise! 🚀
